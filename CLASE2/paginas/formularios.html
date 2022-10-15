@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <!-- etiqueta <form> para crear un formulario -->
+    <h1>Formularios</h1>
+    <!-- action="lugar al que apunta el formulario" method="metodo de envío de datos" -->
+    <form action="" method="get">
+        <fieldset> <legend>datos de ingreso</legend>
+            <label for="usuario">usuario</label>
+            <input type="emai" id="usuario" placeholder="Ingrese el usuario" required>  <!-- entrada de textos -->
+            <br> <br> 
+            <!-- conectar id de input con for de label para que se active el ingreso de datos al clickear en el nombre -->
+            <label for="pass">password</label>
+            <input type="password" id="pass" placeholder="Ingrese la contraseña" required> <!-- entrada de textos -->
+            <!-- required: campo boligatorio -->
+        </fieldset>
+        
+        <br><br>
+
+        <label for="comment">Comentarios</label>
+        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Ingresa tu comentario"></textarea>
+        <br><br>
+
+        <label for="adj">Anexo</label> 
+        <input type="file" id="adj"> <!-- adjuntar archivos -->
+        <br><br>
+
+        <button type="submit"> Send Form </button> <!-- enviar form -->
+        <button type="reset">Reset</button> <!-- limpiar form -->
+        <button type="button" value="Para JS">Para JS</button>
+        <br><br>
+
+        <label for="op1">Selecciona una opcion: </label>
+        <input type="radio" name="curso" id="op1">opcion1   
+        <input type="radio" name="curso" id="op2">opcion2
+        <br><br>
+
+        <label for="">Tips del docu: </label>
+        <input type="checkbox"> cubo
+        <input type="checkbox"> cel 
+        <input type="checkbox"> reloj
+        <br><br>
+
+        <select name="garminSeries" id="">Serie:
+            <option value="fenix" selected>Fenix</option> 
+            <option value="foreR" disabled>ForeRunner</option> 
+            <option value="Vennue" disabled>Venue</option> 
+        </select>
+        
+
+    </form>
+</body>
+</html>
