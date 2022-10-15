@@ -1,0 +1,30 @@
+/* atributo clase */
+/* estructura: */
+/* clase{
+    atributo: valor;
+} */
+
+h2 {color: red;
+    background-color: aquamarine;}
+
+section{color: brown;
+        background-color: black;}
+
+div.clas1{
+    background-color: aqua;
+    border: black 5px 1px;
+}
+div.clas1 h3.titulo{
+    color: white;
+    background-color: black;
+}
+
+.clas1 .texto{
+    color: yellow;
+}
+.texto.destacado{
+    background-color: orange;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
