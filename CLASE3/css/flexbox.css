@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    background-color: tomato;
+    padding: 10px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    flex-flow: row wrap;
+}
+
+.flex-item {
+    background-color: aquamarine;
+    width: 200px;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}

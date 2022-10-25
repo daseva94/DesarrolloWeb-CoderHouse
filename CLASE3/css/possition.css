@@ -1,0 +1,49 @@
+.relative, .absolute, .fixed{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+}
+
+header {
+    background-color: yellowgreen;
+    height: 90px;
+    padding: 10px;
+    border: 5px solid black;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+header ul li {
+    display: inline;
+    list-style: none;
+}
+
+header ul li:hover{
+    background-color: yellow;
+}
+
+.relative{
+    background-color: blue;
+    position: relative;
+    left: 100px;
+    top: 50px;
+    z-index: 1; /* valor de importancia */
+}
+
+.absolute{
+    background-color: yellow;
+    position: absolute;
+}
+
+.fixed{
+    background-color: green;
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+}
+
+footer{
+    border-bottom: 900px;
+}
+

@@ -1,0 +1,41 @@
+/* h2 span{
+    background-color: yellowgreen;
+}
+
+ */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;     
+    /* caracteristicas usadas en css global para que el tamaño de las cajas se modifique hacia adentro y NO hacia afuera (esto agrandaría el tamaño de los mismos)  */
+}
+ .boxModel{
+    width: 600px;
+    height: 100px;
+    background-color: yellowgreen;
+    border: 5px dashed orange;
+    border-top-color: red;
+    /* padding-left: 20px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-right: 20px; */
+    padding: 30px; /* top bottom lef right */
+    margin: 50px auto;
+    overflow: auto; /* genera scroll automatico para contenido que exceda la caja de trabajo */
+
+ }
+
+ .boxModel p{
+    font-size: 25px;
+ }
+
+ .display h3{
+    background-color: orange;
+    display: inline;
+ }
+
+ .display a{
+    background-color: green;
+    display: block;
+    margin-bottom: 10px;
+ }
